@@ -25,9 +25,10 @@ env/
 *.pt
 *.pth
 
-# Data
-ml/data/raw_videos/
-ml/data/keypoints/
+ml/data/raw_videos/*
+!ml/data/raw_videos/.gitkeep
+ml/data/keypoints/*
+!ml/data/keypoints/.gitkeep
 
 # Environment
 .env
